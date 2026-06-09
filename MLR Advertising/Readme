@@ -1,0 +1,71 @@
+# Advertising Sales Prediction Using Multiple Linear Regression
+
+## Project Overview
+This project uses Multiple Linear Regression (MLR) to analyze the impact of advertising expenditure on product sales.
+The objective is to determine which advertising channels contribute most to sales and build a predictive model for
+forecasting future sales.
+
+## Business Problem
+Companies invest in multiple advertising channels such as TV, Radio, and Newspaper. Understanding which channel generates
+the highest return is essential for optimizing marketing budgets and maximizing sales.
+
+This project aims to answer:
+- Which advertising channel has the greatest impact on sales?
+- Can sales be accurately predicted using advertising expenditure?
+- Which channels should receive higher marketing investment?
+
+## Dataset Information
+The dataset contains advertising spending across three marketing channels:
+Feature -  Description 
+ TV - Advertising budget spent on TV 
+ Radio -  Advertising budget spent on Radio 
+ Newspaper -  Advertising budget spent on Newspaper 
+ Sales  - Product sales (Target Variable) 
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-Learn
+- Statsmodels
+
+## Model Performance
+Metric - Value 
+R² Score - 0.906 
+MAE - 1.27 
+MSE - 2.91 
+RMSE - 1.71 
+Adjusted R² -  0.901 
+
+## Key Findings
+### Correlation Analysis
+- TV advertising showed the strongest correlation with Sales (0.901).
+- Radio advertising showed a moderate positive relationship with Sales.
+- Newspaper advertising showed a weak relationship with Sales.
+
+### Statistical Significance
+- TV Advertising: Significant (p < 0.05)
+- Radio Advertising: Significant (p < 0.05)
+- Newspaper Advertising: Not Significant (p > 0.05)
+
+### Multicollinearity
+Variance Inflation Factor (VIF) values were below 5 for all features, indicating no significant multicollinearity issues.
+
+### Residual Analysis
+Residuals were randomly distributed around the zero line, indicating that the assumptions of linear regression were 
+reasonably satisfied and the model fits the data well.
+
+## Business Insights
+- TV advertising is the most influential channel for driving sales.
+- Radio advertising also contributes significantly to sales growth.
+- Newspaper advertising has minimal impact on sales performance.
+- Marketing budgets should prioritize TV and Radio channels for maximum effectiveness.
+- Reducing Newspaper advertising expenditure is unlikely to significantly affect sales.
+
+## Conclusion
+This project successfully applied Multiple Linear Regression to analyze the relationship between advertising expenditure
+and product sales. The model achieved an R² score of 0.906, indicating excellent predictive performance. Statistical 
+analysis confirmed that TV and Radio advertising significantly influence sales, while Newspaper advertising has little 
+impact. These findings can help businesses make data-driven marketing decisions and optimize advertising budgets.
