@@ -15,10 +15,12 @@ THIS REPOSATORY CONTAINS MULTIPLE CASE STUDIES DEMONSTRATING MY LEARNING AND PRA
 - SCIKIT-LEARN
 - PANDAS
 - NUMPY
-- VISUALIZATION TOOL
-- statsmodel
+- MATPLOTLIB
+- SEABORN
+- STATISTICS
 - evaluation metrics
 
-- 
+# CONCLUSION
+This repository documents my journey in Machine Learning by applying concepts learned through hands-on case studies. Each project focuses on developing practical skills that are commonly used in real-world data analysis and machine learning workflows.
   
   
